@@ -5,6 +5,9 @@ import java.time.LocalDate;
 public class BuilderExampleExecute {
 
     public static void main(String[] args) {
+
+        BuilderExample builderExample2 = new BuilderExample("Joao","de Barro",20l,LocalDate.now(),"programador",Boolean.TRUE,Boolean.TRUE);
+
         BuilderExample builderExample = BuilderExample.builder()
                 .name("Joao")
                 .surname("de Barro")
